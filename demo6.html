@@ -1,0 +1,67 @@
+<!DOCTYPE html> <!-- Kommentti, tag määrittää html-version HTML5:ksi-->
+<html>
+    <head>
+        <title>Demo 1</title>
+        <meta charset ="UTF-8">
+        <link rel="stylesheet" type="text/css"href="./omasivu.css">
+    </head>
+    <body>
+        <h1>lomake</h1>
+
+        <form action="https://www.leeniemi.net/julkiset19/luelomake.php" method="post">
+        
+
+            etunimi<br>
+            <input type = "text" name = "enimi" id = "enimi"><br>
+
+            sukunimi<br>
+            <input type = "text" name = "snimi" id = "snimi"><br>
+
+            äidinkieli<br>
+            <input type = "radio" name = "kieli" id = "kieli" value = "suomi">suomi<br>
+            <input type = "radio" name = "kieli" id = "kieli" value = "ruotsi">ruotsi<br>
+            <input type = "radio" name = "kieli" id = "kieli" value = "venaja">venaja<br>
+            <br>
+
+            muu kielitaito<br>
+            <input type = "checkbox" name = "suomi" id = "suomi">suomi<br>
+            <input type = "checkbox" name = "ruotsi" id = "ruotsi">ruotsi<br>
+            <input type = "checkbox" name = "saksa" id = "saksa">saksa<br>
+            <input type = "checkbox" name = "venaja" id = "venaja">venaja<br>
+            <input type = "checkbox" name = "englanti" id = "englanti">englanti<br>
+            <br>
+
+            syntymävuosi
+            <select name = "vuosi">
+                <option value = "1998">1998</option>
+                <option value = "1999">1999</option>
+                <option value = "2000">2000</option>
+                <option value = "2001">2001</option>
+                <option value = "2002">2002</option>
+                <option value = "2003">2003</option>
+                <option value = "2004">2004</option>
+            </select>
+            <br>
+            <textarea name = "vapaa">
+
+
+            </textarea>
+            <br>
+
+            päivä<br>
+            <input type="date"><br>
+         
+
+            <br>email 
+            <input type="email" required><br>
+
+            salasana<br>
+            <input type = "password" name = "password"><br>
+
+            <input type = "reset" value = "tyhjennä lomake">
+            <input type = "submit" value = "lähetä tiedot">
+
+
+
+        </form>
+    </body>
